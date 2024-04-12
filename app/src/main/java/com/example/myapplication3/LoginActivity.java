@@ -37,7 +37,7 @@ public class LoginActivity extends AppCompatActivity {
         String user = usuario.getText().toString();
         String pass = clave.getText().toString();
 
-        if(user.equals("jose") && pass.equals("1234")){
+        if(user.equals("juan") && pass.equals("1234")){
             Intent intent = new Intent(LoginActivity.this, DashboardActivity.class);
             intent.putExtra("user", user);
             startActivity(intent);
