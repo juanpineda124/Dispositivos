@@ -15,10 +15,6 @@
         tools:replace="android:icon"
         tools:targetApi="31">
         <activity
-            android:name=".RegisterActivity"
-            android:exported="false"
-            android:theme="@style/Theme.MyApplication3" />
-        <activity
             android:name=".DashboardActivity"
             android:exported="false"
             android:theme="@style/Theme.MyApplication3" />
